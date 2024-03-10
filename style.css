@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+    color:blueviolet
+}
+
+img{
+    cursor: pointer;
+}
+.flex-div{
+    display:flex;
+    align-items: center;
+}
+nav{
+    padding: 10px 2%;
+    justify-content:space-between; 
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    background:white;
+    position:sticky;
+    inset-block-start:0;
+    z-index:10;
+
+
+}
+
+
+
+.nav-right img{
+       inline-size: 25px;
+       margin-inline-end: 25px;
+
+
+}
+.nav-right .user-icon{
+    inline-size: 35px;
+    border-radius: 50%;
+    margin-inline-end: 0; 
+}
+
+.nav-left .menu-icon{
+    inline-size: 22px;
+    margin-inline-end: 25px;
+}
+
+.nav-left .logo{
+    inline-size: 130px;
+}
+.nav-middle .mic{
+    inline-size: 16px;
+
+}
+.nav-middle .search-box{
+    border: 1px solid #ccc;
+    margin-inline-end: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+
+.nav-middle .search-box input{
+    inline-size:400px;
+    border: 0;
+    outline:0;
+    background: transparent;
+}
+
+.nav-middle .search-box img{
+    inline-size:15px;
+    
+}
+
+
+/*----------------------------------------------------sidebar------------------------*/
+
+
+.sidebar{
+    background: #fff;
+    inline-size: 15%;
+    block-size: 100vh;
+    position: fixed;
+    inline-block-start: 0;
+    padding-inline-start: 2%;
+    padding-block-start: 80px;
+}
+
+.shortcutlinks a img{
+    inline-size: 20px;
+    margin-inline-end: 20px;
+}
+
+.shortcutlinks a{
+    display: flex;
+    align-items: center;
+    margin-block-end: 20px;
+    inline-size: -fit-content;
+    flex-wrap:wrap;
+}
+
+.shortcutlinks a:first-child{
+    color:#ed3833;
+
+}
+
+.sidebar hr{
+    border: 0;
+    block-size: 1px;
+    background:#ccc;
+    inline-size:85%;
+}
+
+.subscribed-list{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+
+}
+.subscribed-list a{
+    display: flex;
+    align-items: center;
+    margin-block-end: 20px;
+    inline-size: -fit-content;
+    flex-wrap: wrap;
+}
+
+.subscribed-list a img{
+    inline-size: 25px;
+    border-radius: 50%;
+    margin-inline-end: 20px;
+}
+
+.small-sidebar{
+    inline-size: 5%;
+}
+
+.small-sidebar a p{
+    display: none;
+
+}
+
+.small-sidebar h3{
+    display: none;
+}
+
+.small-sidebar hr{
+    width: 50%;
+    margin-bottom: 25px;
+
+}
+
+/* ----------main---------*/
+
